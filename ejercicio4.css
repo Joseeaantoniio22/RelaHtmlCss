@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+div{
+    background-color: grey;
+    border: 3px solid black;
+}
+
+h2{
+    background-color: grey;
+    text-align: center;
+}
