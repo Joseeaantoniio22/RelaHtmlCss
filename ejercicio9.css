@@ -13,12 +13,12 @@ p{
     text: justify;
 }
 .intro{
-border: 10px solid black;
-border-radius: 30px;
-margin-left: 25%;
-margin-right: 25%;
-padding: 20px;
-background-color: white;
+    border: 10px solid black;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    background-color: white;
 }
 .estilo1{
     border: 20px solid #802400;
