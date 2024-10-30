@@ -1,0 +1,29 @@
+form{
+    font-size: 14px;
+    color:  #6B121B;
+    border: 1px dotted #B8BFCB;
+    border-radius: 7px;
+    padding: 14px;
+}
+fieldset{
+    border: 1px dotted grey;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+legend{
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: grey;
+}
+input{
+    background-color: white;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
