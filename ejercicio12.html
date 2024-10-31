@@ -11,7 +11,7 @@
         <fieldset>
             <legend>Datos personales</legend>
             Nombre: <input type="text" title="Su nombre" placeholder="Su nombre"><br>
-            Apellidos: <input type="text" title="email" placeholder="nombre@servidor.com" required >
+            Email: <input type="text" title="email" placeholder="nombre@servidor.com" required >
         </fieldset>
         <fieldset>
             <legend>Datos del proyecto</legend>
@@ -19,14 +19,14 @@
             <textarea name="descripcion" id="descripcion"></textarea>
             <br>
             Estado actual del proyecto: <br>
-            <input type="radio" name="estado" value="En planteamiento" checked/>En planteamiento 
-            <input type="radio" name="estado" value="En planificación" checked/>En planificación 
-            <input type="radio" name="estado" value="En ejecución" checked/>En ejecución 
-            <input type="radio" name="estado" value="Ya finalizado" checked/>Ya finalizado <br>
+            <input type="radio" name="estado" value="planteamiento" checked/>En planteamiento 
+            <input type="radio" name="estado" value="planificación" checked/>En planificación 
+            <input type="radio" name="estado" value="ejecución" checked/>En ejecución 
+            <input type="radio" name="estado" value="finalizado" checked/>Ya finalizado <br>
             Presupuesto aproximado (en €). <br>
-            <input type="tel" name="Presupuesto"/>
-            <input type="submit" value="Enviar"/>
+            <input type="number" name="Presupuesto"/>
         </fieldset>
+        <input type="submit" value="Enviar" class="boton"/>
     </form>
 
 </body>
