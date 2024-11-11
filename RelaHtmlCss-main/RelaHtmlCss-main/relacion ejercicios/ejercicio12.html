@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ejercicio12.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relacion de ejercicios HTML</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type="text" title="Su nombre" placeholder="Su nombre"><br>
+            Email: <input type="text" title="email" placeholder="nombre@servidor.com" required >
+        </fieldset>
+        <fieldset>
+            <legend>Datos del proyecto</legend>
+            Breve descripción del proyecto: <br>
+            <textarea name="descripcion" id="descripcion"></textarea>
+            <br>
+            Estado actual del proyecto: <br>
+            <input type="radio" name="estado" value="planteamiento" checked/>En planteamiento 
+            <input type="radio" name="estado" value="planificación" checked/>En planificación 
+            <input type="radio" name="estado" value="ejecución" checked/>En ejecución 
+            <input type="radio" name="estado" value="finalizado" checked/>Ya finalizado <br>
+            Presupuesto aproximado (en €). <br>
+            <input type="number" name="Presupuesto"/>
+        </fieldset>
+        <input type="submit" value="Enviar" class="boton"/>
+    </form>
+
+</body>
+</html>
