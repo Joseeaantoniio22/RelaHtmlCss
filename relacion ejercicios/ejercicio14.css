@@ -1,0 +1,117 @@
+header{
+    background-color: #1E374B;
+    color: white;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center ;
+    
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    flex: 1;
+}
+header img{
+    width: 75px;
+    height: 50px;
+    margin-right: 10px;
+}
+nav ul{
+    background-color: #466482;
+    color: white;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    margin-top: 1px;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display:flex;
+    
+}
+.seHTML, .seXML, .seCSS {
+    box-shadow: 0px 0px 3px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+}
+
+h1{
+    font-size: 21px;
+}
+.img, .xml, .css{
+    height: 200px;
+    width: 170px;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mapa{
+    padding-left: 70px;
+}
+div section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 100%;    
+}
+.audio{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.barra{
+    width: 100%;
+}
+footer{
+    background-color: #14283C;
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.imagenes{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-content: space-between;
+}
+.copi{
+    padding: 10px;
+}
+.icon{
+    margin: 0 5px;
+}
+.contacto{
+    padding-right: 10px;
+}
