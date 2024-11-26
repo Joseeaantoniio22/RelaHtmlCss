@@ -1,0 +1,113 @@
+header{
+    background-color: #082646;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 150px;
+
+}
+header img{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+nav ul{
+    margin-top: 1px;
+    background-color: #082646;
+    list-style-type: none;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: #082646;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 20px;
+    height: 35px;
+    
+}
+nav ul li :hover{
+    box-shadow: 0px 0px 20px rgb(211, 211, 3);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    margin: 10px 30px;
+}
+main div section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px grey;
+    width: 300px;
+    height: 230px;
+    font-size: 18px;
+}
+.texto2{
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: dashed;
+    padding:0px 20px;
+}
+.texto{
+    margin-top: 55px ;
+    text-align: center;
+    text-decoration: dashed;
+    padding: 0px 20px;
+    
+}
+.principal section img{
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+}
+footer {
+    background-color: #082646;
+    color: white;
+    height: 100px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    padding: 15px 15px;
+    margin-top: auto;
+}
+.imagenes img{
+    width: 50px;
+    height: 50px;
+}
+.imagenes img:hover{
+    width: 60px;
+    height: 60px;
+}
